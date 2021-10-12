@@ -21,6 +21,7 @@ body {
     font-size:12px;
     color: #fff;
     background-color:hsl(218, 28%, 13%);
+    line-height: 1.8;
 }
 
 .section-header {
@@ -67,11 +68,6 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.section-one p {
-    line-height: 1.8;
-    padding: 0 1.3rem;
-}
-
 .section-one a {
     margin-top:1rem;
     text-decoration: none;
@@ -113,6 +109,46 @@ body {
     padding-bottom: 1rem;
 }
 
-.section-two--benefit p {
+/* .section-two--benefit p {
     padding: 0 1.3rem;
+} */
+
+.section-three {
+    display:flex;
+    flex-direction:column;
+    padding: 1.5rem;
+    align-items:center;
+}
+
+.section-three img {
+    max-width:80%;
+    height:auto;
+}
+
+.section-three h2 {
+    font-size: 0.9rem;
+    font-family: 'Raleway';
+    letter-spacing: 0.1rem;
+    padding-bottom:0.5rem;
+    padding-top:1rem;
+}
+
+.section-three--text p {
+    padding-bottom:1rem;
+}
+
+.section-three--text a {
+    text-decoration: none;
+    color:hsl(176, 68%, 64%);
+}
+
+.link-arrow {
+    display:flex;
+    align-items:center;
+    width:40%;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.link-arrow a {
+    margin-right: 0.5rem;
 }
