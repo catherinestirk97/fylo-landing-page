@@ -48,7 +48,7 @@ body {
 }
 
 .section-one {
-    padding: 1.5rem;
+    padding: 2.5rem;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -116,8 +116,9 @@ body {
 .section-three {
     display:flex;
     flex-direction:column;
-    padding: 1.5rem;
+    padding: 2.5rem;
     align-items:center;
+    padding-bottom: 4rem;
 }
 
 .section-three img {
@@ -151,4 +152,58 @@ body {
 
 .link-arrow a {
     margin-right: 0.5rem;
+}
+
+.section-four--testimonials {
+    display:flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    padding-bottom:4rem;
+}
+
+.section-four--testimonial {
+    background-color:hsl(219, 30%, 18%);
+    margin: 1rem;
+    padding:1rem;
+    border-radius:5px;
+}
+
+.section-four--testimonial p {
+    font-size: 0.7rem;
+    padding-bottom:0.5rem;
+}
+
+.section-four--testimonial img {
+    width: 25px;
+    height:25px;
+    border-radius: 20px;
+}
+
+.section-four--testimonial-author-details {
+    display:flex;
+    align-items:center;
+}
+
+.section-four--testimonial-author-details p {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+}
+
+
+.author-name {
+    font-weight: bold;
+}
+
+.job-title {
+    display:block;
+    font-size: 0.6rem;
+    font-weight: normal;
+}
+
+.quotes {
+    width:20px;
+    position:relative;
+    left:3rem;
+    top:1.5rem;
+    z-index:-1;
 }
