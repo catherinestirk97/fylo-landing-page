@@ -456,6 +456,11 @@ input[type=email] {
         margin: 0 auto;
     }
 
+    .contact-info--phone p {
+        color:white;
+        text-decoration: none;
+    }
+
     .links-one, .links-two {
         width: 15%;
         align-items:center;
