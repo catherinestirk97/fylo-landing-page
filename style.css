@@ -441,8 +441,8 @@ input[type=email] {
     .section-footer {
         flex-direction: row;
         justify-content: space-between;
-        margin: 1rem;
-        margin-top:2rem;
+        padding: 1rem;
+        padding-top:2rem;
     }
 
     .location-info {
