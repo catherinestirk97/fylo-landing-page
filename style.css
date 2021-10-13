@@ -24,6 +24,10 @@ body {
     line-height: 1.8;
 }
 
+a:hover {
+    cursor:pointer;
+}
+
 .section-header {
     display:flex;
     flex-direction:row;
@@ -64,6 +68,16 @@ body {
 .section-header--links li {
     padding: 0 1rem;
     list-style: none;
+}
+
+.section-header--links a {
+    color:white;
+    text-decoration: none;
+}
+
+.section-header--links a:hover {
+    text-decoration: underline;
+    cursor:pointer;
 }
 
 .section-one {
@@ -187,10 +201,16 @@ body {
 .link-arrow {
     display:flex;
     align-items:center;
+    text-decoration: underline;
 }
 
 .link-arrow a {
     margin-right: 0.5rem;
+}
+
+.link-arrow a:hover {
+    color:white;
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -386,6 +406,7 @@ input[type=email] {
     font-size: 0.8rem;
     padding:0.3rem 0;
 }
+
 
 .links-two {
     margin-bottom: 2rem;
