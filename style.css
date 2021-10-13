@@ -371,6 +371,7 @@ input[type=email] {
     display:flex;
     flex-direction:column;
     padding: 0 1.5rem;
+    background-color: hsl(216, 53%, 9%);
 }
 
 .location-info {
